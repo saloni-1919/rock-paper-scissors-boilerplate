@@ -1,0 +1,79 @@
+/* Additional CSS styles for the game page */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.game-content {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 3px solid gold;
+    margin: 0 20px; /* Adjust margin as needed */
+    position: relative;
+}
+
+.vsimage {
+    width: 100px;
+    height: 250px;
+    margin: 20px 20px; /* Adjust margin as needed */
+}
+
+.button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; /* Adjust padding as needed */
+   
+}
+
+.button {
+    width: 50px; /* Adjust button size as needed */
+    height: auto;
+   
+}
+.text {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+#box2 {
+    background-size: contain; /* Ensure image fits inside the box */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image inside the box */
+}
+#box1 {
+    background-size: contain; /* Ensure image fits inside the box */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image inside the box */
+}
